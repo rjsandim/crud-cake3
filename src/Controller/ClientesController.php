@@ -2,7 +2,9 @@
 
 namespace App\Controller;
 
+use Cake\Error\Debugger;
 use Cake\Event\Event;
+use Cake\Validation\Validator;
 
 class ClientesController extends AppController {
 
@@ -26,15 +28,48 @@ class ClientesController extends AppController {
 	}
 
 	public function add() {
-
-		if ($this->request->is('post')) {
+		
+		if ($this->request->is('post') && $this->clienteEhValido()) {
 
 			$cliente = $this->Clientes->newEntity($this->request->data);
+
 			if ($this->Clientes->save($cliente)) {
 				$this->Flash->success('Cliente cadastrado com sucesso!');
 				$this->redirect(['action' => 'index']);
 			}
 		}
+		
+		$this->set('cliente', $this->Clientes->newEntity());
 	}
 
+
+	private function clienteEhValido() {
+
+		$validator = new Validator();
+
+		$validator->notEmpty('nome', 'Nome deve estar preenchido')->alphaNumeric('nome', 'Nome deve ter apenas letras ou números');
+		$validator->notEmpty('email', 'Email deve estar preenchido')->email('email', false,'Email deve ser valido');
+
+		$errors = $validator->errors($this->request->data);
+
+		if (!empty($errors)) {
+
+			$mensagensDeErros = [];
+			foreach ($errors as $error) {
+				foreach ($error as $tipo) {
+					$mensagensDeErros[] = $tipo;
+				}
+			}
+
+			$mensagemDeErro = implode(', ', $mensagensDeErros);
+			$this->Flash->error($mensagemDeErro);
+			$cliente = $this->Clientes->newEntity($this->request->data);
+			$this->set('cliente', $cliente);
+			return false;
+		}
+		return true;
+	}
+	
+
 }
+

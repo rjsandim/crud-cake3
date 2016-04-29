@@ -43,6 +43,34 @@ class AppController extends Controller
 
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
+
+        $this->loadComponent('Auth', [
+                'authenticate' => [
+                        'Form' => [
+                                'userModel' => "Users",
+                                'fields' => [
+                                        'username' => 'email',
+                                        'password' => 'senha'
+                                ]
+                        ]
+                ],
+                'loginAction' => [
+                        'controller' => 'Users',
+                        'action' => 'login'
+                ],
+                'loginRedirect' => [
+                        'controller' => 'Compras',
+                        'action' => 'index'
+                ],
+                'logoutRedirect' => [
+                        'controller' => 'Compras',
+                        'action' => 'index'
+                ]
+        ]);
+
+        // Allow the display action so our pages controller
+        // continues to work.
+        //$this->Auth->allow(['display']);
     }
 
     /**

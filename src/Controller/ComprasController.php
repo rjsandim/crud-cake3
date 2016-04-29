@@ -16,8 +16,10 @@ class ComprasController extends AppController {
 	}
 
 	public function beforeFilter(Event $event) {
-		return parent::beforeFilter($event);
+
+		$this->Auth->allow('index');
 		//$this->viewBuilder()->layout('tset')
+		return parent::beforeFilter($event);
 	}
 
 

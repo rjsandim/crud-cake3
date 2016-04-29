@@ -14,7 +14,7 @@
 	<? foreach ($compras as $compra) { ?>
 		<tr>
 			<td><?=$compra->id;?></td>
-			<td><?=$compra->cliente->nome;?></td>
+			<td><img src="files/compras/imagem/<?=$compra->imagem_dir?>/<?=$compra->imagem?>"></td>
 			<td><?=$compra->vendedor->nome;?></td>
 			<td><?=$compra->valor_total;?></td>
 			<td><?=$compra->created;?></td>
