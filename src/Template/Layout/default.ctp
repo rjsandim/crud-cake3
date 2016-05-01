@@ -32,6 +32,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
     <?= $this->fetch('script') ?>
+    <base href="<?=$this->Url->build('/', true)?>"/>
 </head>
 <body>
     <nav class="top-bar expanded" data-topbar role="navigation">

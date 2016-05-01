@@ -69,6 +69,15 @@ class ClientesController extends AppController {
 		}
 		return true;
 	}
+
+	public function buscar() {
+		$nome = $this->request->query('nome');
+
+		$query = $this->Clientes->find('all')->where(['nome LIKE' => "%$nome%"]);
+
+		$this->set('clientes', $query);
+		$this->render('index');
+	}
 	
 
 }
