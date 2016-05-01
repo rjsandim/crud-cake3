@@ -25,66 +25,59 @@ use Cake\Event\Event;
  *
  * @link http://book.cakephp.org/3.0/en/controllers.html#the-app-controller
  */
-class AppController extends Controller
-{
+class AppController extends Controller {
 
-    /**
-     * Initialization hook method.
-     *
-     * Use this method to add common initialization code like loading components.
-     *
-     * e.g. `$this->loadComponent('Security');`
-     *
-     * @return void
-     */
-    public function initialize()
-    {
-        parent::initialize();
+	/**
+	 * Initialization hook method.
+	 *
+	 * Use this method to add common initialization code like loading components.
+	 *
+	 * e.g. `$this->loadComponent('Security');`
+	 *
+	 * @return void
+	 */
+	public function initialize() {
+		parent::initialize();
 
-        $this->loadComponent('RequestHandler');
-        $this->loadComponent('Flash');
+		$this->loadComponent('RequestHandler');
+		$this->loadComponent('Flash');
+		$this->loadComponent('Carrinho');
+		$this->loadComponent('Auth', [
+			'authenticate'      => [
+				'Form' => [
+					'userModel' => "Users", 'fields' => [
+						'username' => 'email', 'password' => 'senha'
+					]
+				]
+			], 'loginAction'    => [
+				'controller' => 'Users', 'action' => 'login'
+			], 'loginRedirect'  => [
+				'controller' => 'Compras', 'action' => 'index'
+			], 'logoutRedirect' => [
+				'controller' => 'Compras', 'action' => 'index'
+			]
+		]);
+	}
 
-        $this->loadComponent('Auth', [
-                'authenticate' => [
-                        'Form' => [
-                                'userModel' => "Users",
-                                'fields' => [
-                                        'username' => 'email',
-                                        'password' => 'senha'
-                                ]
-                        ]
-                ],
-                'loginAction' => [
-                        'controller' => 'Users',
-                        'action' => 'login'
-                ],
-                'loginRedirect' => [
-                        'controller' => 'Compras',
-                        'action' => 'index'
-                ],
-                'logoutRedirect' => [
-                        'controller' => 'Compras',
-                        'action' => 'index'
-                ]
-        ]);
+	/**
+	 * Before render callback.
+	 *
+	 * @param \Cake\Event\Event $event The beforeRender event.
+	 * @return void
+	 */
+	public function beforeRender(Event $event) {
+		if (!array_key_exists('_serialize', $this->viewVars) && in_array($this->response->type(), [
+				'application/json', 'application/xml'
+			])
+		) {
+			$this->set('_serialize', true);
+		}
+	}
 
-        // Allow the display action so our pages controller
-        // continues to work.
-        //$this->Auth->allow(['display']);
-    }
 
-    /**
-     * Before render callback.
-     *
-     * @param \Cake\Event\Event $event The beforeRender event.
-     * @return void
-     */
-    public function beforeRender(Event $event)
-    {
-        if (!array_key_exists('_serialize', $this->viewVars) &&
-            in_array($this->response->type(), ['application/json', 'application/xml'])
-        ) {
-            $this->set('_serialize', true);
-        }
-    }
+	public function beforeFilter(Event $event) {
+		parent::beforeFilter($event);
+		$this->set('itensNoCarrinho', $this->Carrinho->numeroDeItensNoCarrinho());
+
+	}
 }

@@ -1,0 +1,5 @@
+
+<? foreach ($carrinhos as $carrinho) { ?>
+
+
+<? } ?>
