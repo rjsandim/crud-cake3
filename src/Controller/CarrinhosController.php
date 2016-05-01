@@ -61,6 +61,7 @@ class CarrinhosController extends AppController {
 
 		$compra = $this->Carrinhos->newEntity($compra, ['associated' => ['Itens']]);
 		if ($this->Carrinhos->save($compra)) {
+			$this->Carrinho->apagar();
 			$this->Flash->success('Carrinho Salvo com sucesso!');
 			return $this->redirect(['controller' => 'produtos', 'action' => 'index']);
 		}
