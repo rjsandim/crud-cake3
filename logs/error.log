@@ -1,0 +1,1345 @@
+2016-04-14 01:35:50 Error: [Cake\View\Exception\MissingTemplateException] Template file "Clientes/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Clientes/index.ctp',
+)
+Request URL: /crud/clientes
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/View/View.php(584): Cake\View\View->_getViewFileName('Clientes/index')
+#1 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ClientesController))
+#4 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-04-14 01:43:50 Error: [TypeError] Argument 1 passed to Cake\ORM\Table::save() must be an instance of Cake\Datasource\EntityInterface, none given, called in /Volumes/Data/Projects/coding/crud/src/Controller/ClientesController.php on line 32
+Request URL: /crud/clientes/add
+Referer URL: http://localhost/crud/clientes/add
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/src/Controller/ClientesController.php(32): Cake\ORM\Table->save()
+#1 [internal function]: App\Controller\ClientesController->add()
+#2 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ClientesController))
+#5 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-04-14 01:46:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Comprar could not be found.
+Exception Attributes: array (
+  'class' => 'Comprar',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /crud/comprar
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-14 01:46:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Compras could not be found.
+Exception Attributes: array (
+  'class' => 'Compras',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /crud/compras
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-14 01:48:18 Error: [Cake\View\Exception\MissingTemplateException] Template file "Compras/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Compras/index.ctp',
+)
+Request URL: /crud/compras
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/View/View.php(584): Cake\View\View->_getViewFileName('Compras/index')
+#1 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ComprasController))
+#4 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-04-14 02:01:32 Error: [BadMethodCallException] Unknown method "listarParaSelect"
+Request URL: /crud/compras/add
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/src/Controller/ComprasController.php(39): Cake\ORM\Table->__call('listarParaSelec...', Array)
+#1 [internal function]: App\Controller\ComprasController->add()
+#2 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ComprasController))
+#5 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-04-14 02:02:02 Error: [BadMethodCallException] Unknown method "listarParaSelect"
+Request URL: /crud/compras/add
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/src/Controller/ComprasController.php(39): Cake\ORM\Table->__call('listarParaSelec...', Array)
+#1 [internal function]: App\Controller\ComprasController->add()
+#2 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ComprasController))
+#5 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-04-14 02:02:25 Error: [BadMethodCallException] Unknown method "listarParaSelect"
+Request URL: /crud/compras/add
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/src/Controller/ComprasController.php(39): Cake\ORM\Table->__call('listarParaSelec...', Array)
+#1 [internal function]: App\Controller\ComprasController->add()
+#2 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ComprasController))
+#5 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-04-14 02:10:02 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Compras.vendedore_id' in 'on clause'
+Request URL: /crud/compras
+Referer URL: http://localhost/crud/compras/add
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php(171): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Connection.php(272): Cake\Database\Log\LoggingStatement->execute()
+#4 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Query.php(188): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Query.php(921): Cake\Database\Query->execute()
+#6 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(272): Cake\ORM\Query->_execute()
+#7 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Query.php(871): Cake\ORM\Query->_all()
+#8 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(131): Cake\ORM\Query->all()
+#9 /Volumes/Data/Projects/coding/crud/src/Template/Compras/index.ctp(14): Cake\ORM\Query->getIterator()
+#10 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/View/View.php(992): include('/Volumes/Data/P...')
+#11 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/View/View.php(952): Cake\View\View->_evaluate('/Volumes/Data/P...', Array)
+#12 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/View/View.php(587): Cake\View\View->_render('/Volumes/Data/P...')
+#13 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#14 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#15 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ComprasController))
+#16 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#17 {main}
+
+
+2016-04-18 22:34:49 Error: [BadMethodCallException] Unknown finder method "ListaParaSelect"
+Request URL: /crud/compras/add
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Table.php(947): Cake\ORM\Table->callFinder('ListaParaSelect', Object(Cake\ORM\Query), Array)
+#1 /Volumes/Data/Projects/coding/crud/src/Controller/ComprasController.php(44): Cake\ORM\Table->find('ListaParaSelect')
+#2 [internal function]: App\Controller\ComprasController->add()
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#4 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ComprasController))
+#6 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-04-18 22:36:21 Error: [BadMethodCallException] Unknown finder method "ListaParaSelect"
+Request URL: /crud/compras/add
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Table.php(947): Cake\ORM\Table->callFinder('ListaParaSelect', Object(Cake\ORM\Query), Array)
+#1 /Volumes/Data/Projects/coding/crud/src/Controller/ComprasController.php(45): Cake\ORM\Table->find('ListaParaSelect')
+#2 [internal function]: App\Controller\ComprasController->add()
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#4 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ComprasController))
+#6 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-04-18 22:36:37 Error: [BadMethodCallException] Unknown finder method "ListaParaSelect"
+Request URL: /crud/compras/add
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Table.php(947): Cake\ORM\Table->callFinder('ListaParaSelect', Object(Cake\ORM\Query), Array)
+#1 /Volumes/Data/Projects/coding/crud/src/Controller/ComprasController.php(45): Cake\ORM\Table->find('ListaParaSelect')
+#2 [internal function]: App\Controller\ComprasController->add()
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#4 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ComprasController))
+#6 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-04-19 00:09:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Compras;add could not be found.
+Exception Attributes: array (
+  'class' => 'Compras;add',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /crud/compras;add
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-20 01:26:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /crud/users/login
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-20 01:30:00 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::login() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /crud/users/login
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-04-20 01:30:13 Error: [Cake\View\Exception\MissingTemplateException] Template file "Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/login.ctp',
+)
+Request URL: /crud/users/login
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/View/View.php(584): Cake\View\View->_getViewFileName('Users/login')
+#1 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#4 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-04-20 01:38:48 Error: [Error] Call to a member function newEntity() on boolean
+Request URL: /crud/users/add
+Referer URL: http://localhost/crud/users/add
+Stack Trace:
+#0 [internal function]: App\Controller\UsersController->add()
+#1 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#2 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#4 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-04-26 00:13:49 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'crud-exemplo.usuarios' doesn't exist
+Request URL: /crud/users/login
+Referer URL: http://localhost/crud/users/login
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'usuarios', Array, Object(Cake\Database\Schema\Table))
+#1 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(64): Cake\Database\Schema\Collection->describe('usuarios', Array)
+#2 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Table.php(429): Cake\Database\Schema\CachedCollection->describe('usuarios')
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Query.php(211): Cake\ORM\Table->schema()
+#4 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(Cake\ORM\Table))
+#5 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Table.php(1242): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(Cake\ORM\Table))
+#6 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Table.php(945): Cake\ORM\Table->query()
+#7 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Auth/BaseAuthenticate.php(156): Cake\ORM\Table->find('all', Array)
+#8 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Auth/BaseAuthenticate.php(108): Cake\Auth\BaseAuthenticate->_query('a@a.com')
+#9 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Auth/FormAuthenticate.php(76): Cake\Auth\BaseAuthenticate->_findUser('a@a.com', '1')
+#10 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(769): Cake\Auth\FormAuthenticate->authenticate(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 /Volumes/Data/Projects/coding/crud/src/Controller/UsersController.php(17): Cake\Controller\Component\AuthComponent->identify()
+#12 [internal function]: App\Controller\UsersController->login()
+#13 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#14 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#15 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#16 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#17 {main}
+
+
+2016-04-27 01:28:42 Error: [ParseError] syntax error, unexpected '...' (T_ELLIPSIS)
+Request URL: /crud/clientes/add
+Referer URL: http://localhost/crud/clientes/add
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/Volumes/Data/P...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Model\\Table...')
+#2 [internal function]: spl_autoload_call('App\\Model\\Table...')
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Core/App.php(151): class_exists('App\\Model\\Table...')
+#4 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Model\\Table\\Cl...', 'App')
+#5 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php(196): Cake\Core\App::className('Clientes', 'Model/Table', 'Table')
+#6 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php(154): Cake\ORM\Locator\TableLocator->_getClassName('Clientes', Array)
+#7 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php(114): Cake\ORM\Locator\TableLocator->get('Clientes')
+#8 /Volumes/Data/Projects/coding/crud/src/Controller/ClientesController.php(14): Cake\Controller\Controller->loadModel('Clientes')
+#9 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(262): App\Controller\ClientesController->initialize()
+#10 [internal function]: Cake\Controller\Controller->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), 'Clientes')
+#11 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(100): ReflectionClass->newInstance(Object(Cake\Network\Request), Object(Cake\Network\Response), 'Clientes')
+#12 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(51): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#13 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#14 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Event/EventManager.php(390): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#15 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#16 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#17 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#18 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#19 {main}
+
+
+2016-04-27 03:59:22 Error: [InvalidArgumentException] Cannot get an empty property
+Request URL: /crud/compras/add
+Referer URL: http://localhost/crud/compras/add
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/davidyell/proffer/src/Lib/ProfferPath.php(48): Cake\ORM\Entity->get(NULL)
+#1 /Volumes/Data/Projects/coding/crud/vendor/davidyell/proffer/src/Model/Behavior/ProfferBehavior.php(90): Proffer\Lib\ProfferPath->__construct(Object(App\Model\Table\ComprasTable), Object(Cake\ORM\Entity), 'imagem', Array)
+#2 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Event/EventManager.php(390): Proffer\Model\Behavior\ProfferBehavior->beforeSave(Object(Cake\Event\Event), Object(Cake\ORM\Entity), Object(ArrayObject))
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Table.php(1439): Cake\ORM\Table->dispatchEvent('Model.beforeSav...', Array)
+#6 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Table.php(1391): Cake\ORM\Table->_processSave(Object(Cake\ORM\Entity), Object(ArrayObject))
+#7 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Connection.php(559): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#8 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Table.php(1392): Cake\Database\Connection->transactional(Object(Closure))
+#9 /Volumes/Data/Projects/coding/crud/src/Controller/ComprasController.php(39): Cake\ORM\Table->save(Object(Cake\ORM\Entity))
+#10 [internal function]: App\Controller\ComprasController->add()
+#11 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#12 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#13 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ComprasController))
+#14 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#15 {main}
+
+
+2016-04-28 00:03:34 Error: [TypeError] Argument 1 passed to Cake\Validation\ValidationRule::__construct() must be of the type array, string given, called in /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Validation/ValidationSet.php on line 124
+Request URL: /crud/clientes/add
+Referer URL: http://localhost/crud/clientes/add
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Validation/ValidationSet.php(124): Cake\Validation\ValidationRule->__construct('notEmpty')
+#1 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Validation/Validator.php(318): Cake\Validation\ValidationSet->add('rule', 'notEmpty')
+#2 /Volumes/Data/Projects/coding/crud/src/Controller/ClientesController.php(38): Cake\Validation\Validator->add(Object(Cake\Validation\ValidationSet), 'rule')
+#3 [internal function]: App\Controller\ClientesController->add()
+#4 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#5 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ClientesController))
+#7 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2016-04-28 01:13:21 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Compras.vendedore_id' in 'on clause'
+Request URL: /crud/compras
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php(171): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Connection.php(272): Cake\Database\Log\LoggingStatement->execute()
+#4 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Query.php(188): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Query.php(921): Cake\Database\Query->execute()
+#6 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(272): Cake\ORM\Query->_execute()
+#7 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Query.php(871): Cake\ORM\Query->_all()
+#8 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(131): Cake\ORM\Query->all()
+#9 /Volumes/Data/Projects/coding/crud/src/Template/Compras/index.ctp(14): Cake\ORM\Query->getIterator()
+#10 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/View/View.php(992): include('/Volumes/Data/P...')
+#11 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/View/View.php(952): Cake\View\View->_evaluate('/Volumes/Data/P...', Array)
+#12 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/View/View.php(587): Cake\View\View->_render('/Volumes/Data/P...')
+#13 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#14 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#15 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ComprasController))
+#16 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#17 {main}
+
+
+2016-04-28 01:16:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Files could not be found.
+Exception Attributes: array (
+  'class' => 'Files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /crud/files/compras/imagem//3.jpg
+Referer URL: http://localhost/crud/compras
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-28 01:16:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Files could not be found.
+Exception Attributes: array (
+  'class' => 'Files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /crud/files/compras/imagem//6.jpg
+Referer URL: http://localhost/crud/compras
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-28 01:16:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Files could not be found.
+Exception Attributes: array (
+  'class' => 'Files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /crud/files/compras/imagem//
+Referer URL: http://localhost/crud/compras
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-28 01:16:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Files could not be found.
+Exception Attributes: array (
+  'class' => 'Files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /crud/files/compras/imagem//7.jpg
+Referer URL: http://localhost/crud/compras
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-28 01:21:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Files could not be found.
+Exception Attributes: array (
+  'class' => 'Files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /crud/files/compras/imagem//
+Referer URL: http://localhost/crud/compras
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-28 01:21:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Files could not be found.
+Exception Attributes: array (
+  'class' => 'Files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /crud/files/compras/imagem//7.jpg
+Referer URL: http://localhost/crud/compras
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-28 01:21:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Files could not be found.
+Exception Attributes: array (
+  'class' => 'Files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /crud/files/compras/imagem//6.jpg
+Referer URL: http://localhost/crud/compras
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-28 01:21:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Files could not be found.
+Exception Attributes: array (
+  'class' => 'Files',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /crud/files/compras/imagem//3.jpg
+Referer URL: http://localhost/crud/compras
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-28 01:32:24 Warning: Warning (2): array_values() expects parameter 1 to be array, null given in [/Volumes/Data/Projects/coding/crud/src/Controller/ClientesController.php, line 44]
+Request URL: /crud/clientes/add
+Referer URL: http://localhost/crud/clientes/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+array_values - [internal], line ??
+App\Controller\ClientesController::add() - APP/Controller/ClientesController.php, line 44
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-04-28 01:32:24 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [/Volumes/Data/Projects/coding/crud/src/Controller/ClientesController.php, line 45]
+Request URL: /crud/clientes/add
+Referer URL: http://localhost/crud/clientes/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+implode - [internal], line ??
+App\Controller\ClientesController::add() - APP/Controller/ClientesController.php, line 45
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-05-01 00:05:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Buscar could not be found.
+Exception Attributes: array (
+  'class' => 'Buscar',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /crud/buscar?buscar=teste
+Referer URL: http://localhost/crud/clientes
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-01 00:05:14 Error: [Cake\Controller\Exception\MissingActionException] Action ClientesController::buscar() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'buscar',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /crud/clientes/buscar?buscar=buscar
+Referer URL: http://localhost/crud/clientes
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ClientesController))
+#2 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-05-01 00:07:15 Warning: Warning (2): Invalid argument supplied for foreach() in [/Volumes/Data/Projects/coding/crud/src/Template/Clientes/index.ctp, line 18]
+Request URL: /crud/clientes/buscar?buscar=buscar
+Referer URL: http://localhost/crud/clientes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Clientes/index.ctp, line 18
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+App\Controller\ClientesController::buscar() - APP/Controller/ClientesController.php, line 80
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-05-01 00:07:54 Warning: Warning (2): Invalid argument supplied for foreach() in [/Volumes/Data/Projects/coding/crud/src/Template/Clientes/index.ctp, line 18]
+Request URL: /crud/clientes/buscar?buscar=buscar
+Referer URL: http://localhost/crud/clientes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Clientes/index.ctp, line 18
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+App\Controller\ClientesController::buscar() - APP/Controller/ClientesController.php, line 80
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-05-01 00:08:02 Error: [Cake\Controller\Exception\MissingActionException] Action ClientesController::clientes() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'clientes',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /crud/clientes/clientes/buscar?nome=ewqe
+Referer URL: http://localhost/crud/clientes/buscar?buscar=buscar
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ClientesController))
+#2 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-05-01 00:08:33 Warning: Warning (2): Invalid argument supplied for foreach() in [/Volumes/Data/Projects/coding/crud/src/Template/Clientes/index.ctp, line 18]
+Request URL: /crud/clientes/buscar?nome=ewqew
+Referer URL: http://localhost/crud/clientes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Clientes/index.ctp, line 18
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+App\Controller\ClientesController::buscar() - APP/Controller/ClientesController.php, line 80
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-05-01 00:08:38 Error: [Cake\Controller\Exception\MissingActionException] Action ClientesController::clientes() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'clientes',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /crud/clientes/clientes/buscar?nome=eqwewq
+Referer URL: http://localhost/crud/clientes/buscar?nome=ewqew
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ClientesController))
+#2 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-05-01 00:10:00 Warning: Warning (2): Invalid argument supplied for foreach() in [/Volumes/Data/Projects/coding/crud/src/Template/Clientes/index.ctp, line 18]
+Request URL: /crud/clientes/buscar?nome=eqwewqe
+Referer URL: http://localhost/crud/clientes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Clientes/index.ctp, line 18
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+App\Controller\ClientesController::buscar() - APP/Controller/ClientesController.php, line 80
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-05-01 00:10:04 Warning: Warning (2): Invalid argument supplied for foreach() in [/Volumes/Data/Projects/coding/crud/src/Template/Clientes/index.ctp, line 18]
+Request URL: /crud/clientes/buscar?nome=eeeee
+Referer URL: http://localhost/crud/clientes/buscar?nome=eqwewqe
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Clientes/index.ctp, line 18
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+App\Controller\ClientesController::buscar() - APP/Controller/ClientesController.php, line 80
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-05-01 04:53:06 Error: [Cake\View\Exception\MissingTemplateException] Template file "Carrinhos/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Carrinhos/index.ctp',
+)
+Request URL: /crud/carrinhos
+Referer URL: http://localhost/crud/users/login
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/View/View.php(584): Cake\View\View->_getViewFileName('Carrinhos/index')
+#1 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\CarrinhosController))
+#4 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-05-01 05:02:51 Error: [Cake\Controller\Exception\MissingActionException] Action CarrinhosController::produtos() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CarrinhosController',
+  'action' => 'produtos',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /crud/carrinhos/produtos
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\CarrinhosController))
+#2 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-05-01 05:03:00 Error: [Cake\View\Exception\MissingTemplateException] Template file "Produtos/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Produtos/index.ctp',
+)
+Request URL: /crud/produtos
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/View/View.php(584): Cake\View\View->_getViewFileName('Produtos/index')
+#1 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProdutosController))
+#4 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-05-01 05:04:07 Error: [Cake\View\Exception\MissingTemplateException] Template file "Produtos/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Produtos/index.ctp',
+)
+Request URL: /crud/produtos
+Referer URL: http://localhost/crud/produtos/add
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/View/View.php(584): Cake\View\View->_getViewFileName('Produtos/index')
+#1 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProdutosController))
+#4 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-05-01 05:08:18 Warning: Warning (2): Invalid argument supplied for foreach() in [/Volumes/Data/Projects/coding/crud/src/Template/Produtos/index.ctp, line 13]
+Request URL: /crud/produtos
+Referer URL: http://localhost/crud/produtos/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Produtos/index.ctp, line 13
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-05-01 05:15:36 Error: [Cake\Controller\Exception\MissingActionException] Action ProdutosController::adicionar() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'ProdutosController',
+  'action' => 'adicionar',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /crud/produtos/adicionar
+Referer URL: http://localhost/crud/produtos
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProdutosController))
+#2 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-05-01 05:15:54 Error: [Cake\View\Exception\MissingTemplateException] Template file "Produtos/adicionar.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Produtos/adicionar.ctp',
+)
+Request URL: /crud/produtos/adicionar
+Referer URL: http://localhost/crud/produtos
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/View/View.php(584): Cake\View\View->_getViewFileName('Produtos/adicio...')
+#1 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProdutosController))
+#4 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-05-01 15:04:13 Error: [TypeError] Argument 1 passed to Cake\ORM\Table::delete() must be an instance of Cake\Datasource\EntityInterface, string given, called in /Volumes/Data/Projects/coding/crud/src/Controller/ProdutosController.php on line 55
+Request URL: /crud/produtos/remover/2
+Referer URL: http://localhost/crud/produtos
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/src/Controller/ProdutosController.php(55): Cake\ORM\Table->delete('2')
+#1 [internal function]: App\Controller\ProdutosController->remover('2')
+#2 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProdutosController))
+#5 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-05-01 15:09:06 Error: [Cake\Controller\Exception\MissingActionException] Action ProdutosController::venda() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'ProdutosController',
+  'action' => 'venda',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /crud/produtos/venda
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProdutosController))
+#2 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-05-01 15:35:58 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Carirnho could not be found.
+Exception Attributes: array (
+  'class' => 'Carirnho',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /crud/carirnho/ver
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-01 15:36:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Carrinho could not be found.
+Exception Attributes: array (
+  'class' => 'Carrinho',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /crud/carrinho
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-01 15:42:48 Error: [Error] Call to a member function find() on boolean
+Request URL: /crud/carrinhos
+Stack Trace:
+#0 [internal function]: App\Controller\CarrinhosController->index()
+#1 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#2 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\CarrinhosController))
+#4 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-05-01 15:42:57 Error: [InvalidArgumentException] Cannot convert value to integer
+Request URL: /crud/carrinhos
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/TypeConverterTrait.php(37): Cake\Database\Type\IntegerType->toDatabase(Array, Object(Cake\Database\Driver\Mysql))
+#1 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Statement/PDOStatement.php(70): Cake\Database\Statement\StatementDecorator->cast(Array, Object(Cake\Database\Type\IntegerType))
+#2 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php(105): Cake\Database\Statement\PDOStatement->bindValue('c0', Array, 'integer')
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php(97): Cake\Database\Statement\StatementDecorator->bindValue('c0', Array, 'integer')
+#4 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php(290): Cake\Database\Log\LoggingStatement->bindValue('c0', Array, 'integer')
+#5 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/ValueBinder.php(125): Cake\Database\Statement\StatementDecorator->bind(Array, Array)
+#6 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Connection.php(271): Cake\Database\ValueBinder->attachTo(Object(Cake\Database\Log\LoggingStatement))
+#7 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Query.php(188): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#8 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Query.php(921): Cake\Database\Query->execute()
+#9 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(272): Cake\ORM\Query->_execute()
+#10 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Query.php(871): Cake\ORM\Query->_all()
+#11 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(131): Cake\ORM\Query->all()
+#12 /Volumes/Data/Projects/coding/crud/src/Template/Carrinhos/index.ctp(3): Cake\ORM\Query->getIterator()
+#13 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/View/View.php(992): include('/Volumes/Data/P...')
+#14 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/View/View.php(952): Cake\View\View->_evaluate('/Volumes/Data/P...', Array)
+#15 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/View/View.php(587): Cake\View\View->_render('/Volumes/Data/P...')
+#16 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#17 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#18 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\CarrinhosController))
+#19 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2016-05-01 18:31:07 Warning: Warning (2): array_keys() expects parameter 1 to be array, null given in [/Volumes/Data/Projects/coding/crud/src/Controller/Component/CarrinhoComponent.php, line 53]
+Request URL: /crud/carrinhos
+Referer URL: http://localhost/crud/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+array_keys - [internal], line ??
+App\Controller\Component\CarrinhoComponent::getItens() - APP/Controller/Component/CarrinhoComponent.php, line 53
+App\Controller\CarrinhosController::index() - APP/Controller/CarrinhosController.php, line 16
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-05-01 18:31:07 Error: [Cake\Database\Exception] Impossible to generate condition with empty list of values for field (id)
+Request URL: /crud/carrinhos
+Referer URL: http://localhost/crud/users/login
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Expression/Comparison.php(133): Cake\Database\Expression\Comparison->_stringExpression(Object(Cake\Database\ValueBinder))
+#1 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Expression/QueryExpression.php(481): Cake\Database\Expression\Comparison->sql(Object(Cake\Database\ValueBinder))
+#2 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/QueryCompiler.php(130): Cake\Database\Expression\QueryExpression->sql(Object(Cake\Database\ValueBinder))
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Query.php(254): Cake\Database\QueryCompiler->Cake\Database\{closure}(Object(Cake\Database\Expression\QueryExpression), 'where')
+#4 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/QueryCompiler.php(98): Cake\Database\Query->traverse(Object(Closure), Array)
+#5 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Driver.php(321): Cake\Database\QueryCompiler->compile(Object(Cake\ORM\Query), Object(Cake\Database\ValueBinder))
+#6 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Connection.php(258): Cake\Database\Driver->compileQuery(Object(Cake\ORM\Query), Object(Cake\Database\ValueBinder))
+#7 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Query.php(225): Cake\Database\Connection->compileQuery(Object(Cake\ORM\Query), Object(Cake\Database\ValueBinder))
+#8 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Query.php(902): Cake\Database\Query->sql(Object(Cake\Database\ValueBinder))
+#9 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(121): Cake\ORM\Query->sql()
+#10 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Connection.php(218): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#11 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Connection.php(270): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#12 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Query.php(188): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#13 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Query.php(921): Cake\Database\Query->execute()
+#14 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(272): Cake\ORM\Query->_execute()
+#15 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Query.php(871): Cake\ORM\Query->_all()
+#16 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(131): Cake\ORM\Query->all()
+#17 /Volumes/Data/Projects/coding/crud/src/Template/Carrinhos/index.ctp(5): Cake\ORM\Query->getIterator()
+#18 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/View/View.php(992): include('/Volumes/Data/P...')
+#19 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/View/View.php(952): Cake\View\View->_evaluate('/Volumes/Data/P...', Array)
+#20 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/View/View.php(587): Cake\View\View->_render('/Volumes/Data/P...')
+#21 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#22 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#23 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\CarrinhosController))
+#24 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#25 {main}
+
+
+2016-05-01 18:31:35 Warning: Warning (2): array_keys() expects parameter 1 to be array, null given in [/Volumes/Data/Projects/coding/crud/src/Controller/Component/CarrinhoComponent.php, line 53]
+Request URL: /crud/carrinhos
+Referer URL: http://localhost/crud/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+array_keys - [internal], line ??
+App\Controller\Component\CarrinhoComponent::getItens() - APP/Controller/Component/CarrinhoComponent.php, line 53
+App\Controller\CarrinhosController::index() - APP/Controller/CarrinhosController.php, line 14
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-05-01 18:31:36 Error: [Cake\Database\Exception] Impossible to generate condition with empty list of values for field (id)
+Request URL: /crud/carrinhos
+Referer URL: http://localhost/crud/users/login
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Expression/Comparison.php(133): Cake\Database\Expression\Comparison->_stringExpression(Object(Cake\Database\ValueBinder))
+#1 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Expression/QueryExpression.php(481): Cake\Database\Expression\Comparison->sql(Object(Cake\Database\ValueBinder))
+#2 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/QueryCompiler.php(130): Cake\Database\Expression\QueryExpression->sql(Object(Cake\Database\ValueBinder))
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Query.php(254): Cake\Database\QueryCompiler->Cake\Database\{closure}(Object(Cake\Database\Expression\QueryExpression), 'where')
+#4 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/QueryCompiler.php(98): Cake\Database\Query->traverse(Object(Closure), Array)
+#5 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Driver.php(321): Cake\Database\QueryCompiler->compile(Object(Cake\ORM\Query), Object(Cake\Database\ValueBinder))
+#6 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Connection.php(258): Cake\Database\Driver->compileQuery(Object(Cake\ORM\Query), Object(Cake\Database\ValueBinder))
+#7 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Query.php(225): Cake\Database\Connection->compileQuery(Object(Cake\ORM\Query), Object(Cake\Database\ValueBinder))
+#8 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Query.php(902): Cake\Database\Query->sql(Object(Cake\Database\ValueBinder))
+#9 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(121): Cake\ORM\Query->sql()
+#10 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Connection.php(218): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#11 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Connection.php(270): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#12 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Query.php(188): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#13 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Query.php(921): Cake\Database\Query->execute()
+#14 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(272): Cake\ORM\Query->_execute()
+#15 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Query.php(871): Cake\ORM\Query->_all()
+#16 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(131): Cake\ORM\Query->all()
+#17 /Volumes/Data/Projects/coding/crud/src/Template/Carrinhos/index.ctp(5): Cake\ORM\Query->getIterator()
+#18 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/View/View.php(992): include('/Volumes/Data/P...')
+#19 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/View/View.php(952): Cake\View\View->_evaluate('/Volumes/Data/P...', Array)
+#20 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/View/View.php(587): Cake\View\View->_render('/Volumes/Data/P...')
+#21 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#22 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#23 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\CarrinhosController))
+#24 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#25 {main}
+
+
+2016-05-01 18:31:37 Warning: Warning (2): array_keys() expects parameter 1 to be array, null given in [/Volumes/Data/Projects/coding/crud/src/Controller/Component/CarrinhoComponent.php, line 53]
+Request URL: /crud/carrinhos
+Referer URL: http://localhost/crud/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+array_keys - [internal], line ??
+App\Controller\Component\CarrinhoComponent::getItens() - APP/Controller/Component/CarrinhoComponent.php, line 53
+App\Controller\CarrinhosController::index() - APP/Controller/CarrinhosController.php, line 14
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-05-01 18:31:38 Error: [Cake\Database\Exception] Impossible to generate condition with empty list of values for field (id)
+Request URL: /crud/carrinhos
+Referer URL: http://localhost/crud/users/login
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Expression/Comparison.php(133): Cake\Database\Expression\Comparison->_stringExpression(Object(Cake\Database\ValueBinder))
+#1 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Expression/QueryExpression.php(481): Cake\Database\Expression\Comparison->sql(Object(Cake\Database\ValueBinder))
+#2 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/QueryCompiler.php(130): Cake\Database\Expression\QueryExpression->sql(Object(Cake\Database\ValueBinder))
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Query.php(254): Cake\Database\QueryCompiler->Cake\Database\{closure}(Object(Cake\Database\Expression\QueryExpression), 'where')
+#4 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/QueryCompiler.php(98): Cake\Database\Query->traverse(Object(Closure), Array)
+#5 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Driver.php(321): Cake\Database\QueryCompiler->compile(Object(Cake\ORM\Query), Object(Cake\Database\ValueBinder))
+#6 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Connection.php(258): Cake\Database\Driver->compileQuery(Object(Cake\ORM\Query), Object(Cake\Database\ValueBinder))
+#7 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Query.php(225): Cake\Database\Connection->compileQuery(Object(Cake\ORM\Query), Object(Cake\Database\ValueBinder))
+#8 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Query.php(902): Cake\Database\Query->sql(Object(Cake\Database\ValueBinder))
+#9 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(121): Cake\ORM\Query->sql()
+#10 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Connection.php(218): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#11 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Connection.php(270): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#12 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Query.php(188): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#13 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Query.php(921): Cake\Database\Query->execute()
+#14 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(272): Cake\ORM\Query->_execute()
+#15 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Query.php(871): Cake\ORM\Query->_all()
+#16 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(131): Cake\ORM\Query->all()
+#17 /Volumes/Data/Projects/coding/crud/src/Template/Carrinhos/index.ctp(5): Cake\ORM\Query->getIterator()
+#18 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/View/View.php(992): include('/Volumes/Data/P...')
+#19 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/View/View.php(952): Cake\View\View->_evaluate('/Volumes/Data/P...', Array)
+#20 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/View/View.php(587): Cake\View\View->_render('/Volumes/Data/P...')
+#21 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#22 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#23 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\CarrinhosController))
+#24 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#25 {main}
+
+
+2016-05-01 18:31:55 Warning: Warning (2): array_keys() expects parameter 1 to be array, null given in [/Volumes/Data/Projects/coding/crud/src/Controller/Component/CarrinhoComponent.php, line 53]
+Request URL: /crud/carrinhos
+Referer URL: http://localhost/crud/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+array_keys - [internal], line ??
+App\Controller\Component\CarrinhoComponent::getItens() - APP/Controller/Component/CarrinhoComponent.php, line 53
+App\Controller\CarrinhosController::index() - APP/Controller/CarrinhosController.php, line 14
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-05-01 18:31:55 Error: [Cake\Database\Exception] Impossible to generate condition with empty list of values for field (id)
+Request URL: /crud/carrinhos
+Referer URL: http://localhost/crud/users/login
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Expression/Comparison.php(133): Cake\Database\Expression\Comparison->_stringExpression(Object(Cake\Database\ValueBinder))
+#1 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Expression/QueryExpression.php(481): Cake\Database\Expression\Comparison->sql(Object(Cake\Database\ValueBinder))
+#2 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/QueryCompiler.php(130): Cake\Database\Expression\QueryExpression->sql(Object(Cake\Database\ValueBinder))
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Query.php(254): Cake\Database\QueryCompiler->Cake\Database\{closure}(Object(Cake\Database\Expression\QueryExpression), 'where')
+#4 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/QueryCompiler.php(98): Cake\Database\Query->traverse(Object(Closure), Array)
+#5 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Driver.php(321): Cake\Database\QueryCompiler->compile(Object(Cake\ORM\Query), Object(Cake\Database\ValueBinder))
+#6 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Connection.php(258): Cake\Database\Driver->compileQuery(Object(Cake\ORM\Query), Object(Cake\Database\ValueBinder))
+#7 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Query.php(225): Cake\Database\Connection->compileQuery(Object(Cake\ORM\Query), Object(Cake\Database\ValueBinder))
+#8 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Query.php(902): Cake\Database\Query->sql(Object(Cake\Database\ValueBinder))
+#9 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(121): Cake\ORM\Query->sql()
+#10 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Connection.php(218): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#11 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Connection.php(270): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#12 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Query.php(188): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#13 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Query.php(921): Cake\Database\Query->execute()
+#14 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(272): Cake\ORM\Query->_execute()
+#15 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Query.php(871): Cake\ORM\Query->_all()
+#16 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(131): Cake\ORM\Query->all()
+#17 /Volumes/Data/Projects/coding/crud/src/Template/Carrinhos/index.ctp(5): Cake\ORM\Query->getIterator()
+#18 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/View/View.php(992): include('/Volumes/Data/P...')
+#19 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/View/View.php(952): Cake\View\View->_evaluate('/Volumes/Data/P...', Array)
+#20 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/View/View.php(587): Cake\View\View->_render('/Volumes/Data/P...')
+#21 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#22 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#23 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\CarrinhosController))
+#24 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#25 {main}
+
+
+2016-05-01 18:32:54 Error: [Error] Call to undefined method App\Controller\Component\CarrinhoComponent::temItens()
+Request URL: /crud/carrinhos
+Referer URL: http://localhost/crud/users/login
+Stack Trace:
+#0 [internal function]: App\Controller\CarrinhosController->index()
+#1 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#2 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\CarrinhosController))
+#4 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-05-01 18:33:18 Warning: Warning (2): Invalid argument supplied for foreach() in [/Volumes/Data/Projects/coding/crud/src/Template/Carrinhos/index.ctp, line 5]
+Request URL: /crud/carrinhos
+Referer URL: http://localhost/crud/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Carrinhos/index.ctp, line 5
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-05-01 18:44:36 Warning: Warning (2): array_keys() expects parameter 1 to be array, null given in [/Volumes/Data/Projects/coding/crud/src/Controller/Component/CarrinhoComponent.php, line 53]
+Request URL: /crud/carrinhos
+Referer URL: http://localhost/crud/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+array_keys - [internal], line ??
+App\Controller\Component\CarrinhoComponent::getItens() - APP/Controller/Component/CarrinhoComponent.php, line 53
+App\Controller\CarrinhosController::index() - APP/Controller/CarrinhosController.php, line 18
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-05-01 18:44:36 Error: [Cake\Database\Exception] Impossible to generate condition with empty list of values for field (id)
+Request URL: /crud/carrinhos
+Referer URL: http://localhost/crud/users/login
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Expression/Comparison.php(133): Cake\Database\Expression\Comparison->_stringExpression(Object(Cake\Database\ValueBinder))
+#1 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Expression/QueryExpression.php(481): Cake\Database\Expression\Comparison->sql(Object(Cake\Database\ValueBinder))
+#2 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/QueryCompiler.php(130): Cake\Database\Expression\QueryExpression->sql(Object(Cake\Database\ValueBinder))
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Query.php(254): Cake\Database\QueryCompiler->Cake\Database\{closure}(Object(Cake\Database\Expression\QueryExpression), 'where')
+#4 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/QueryCompiler.php(98): Cake\Database\Query->traverse(Object(Closure), Array)
+#5 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Driver.php(321): Cake\Database\QueryCompiler->compile(Object(Cake\ORM\Query), Object(Cake\Database\ValueBinder))
+#6 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Connection.php(258): Cake\Database\Driver->compileQuery(Object(Cake\ORM\Query), Object(Cake\Database\ValueBinder))
+#7 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Query.php(225): Cake\Database\Connection->compileQuery(Object(Cake\ORM\Query), Object(Cake\Database\ValueBinder))
+#8 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Query.php(902): Cake\Database\Query->sql(Object(Cake\Database\ValueBinder))
+#9 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Query.php(1901): Cake\ORM\Query->sql()
+#10 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Query.php(1091): Cake\Database\Query->__debugInfo()
+#11 /Volumes/Data/Projects/coding/crud/vendor/cakephp/debug_kit/src/Panel/VariablesPanel.php(80): Cake\ORM\Query->__debugInfo()
+#12 [internal function]: DebugKit\Panel\VariablesPanel->DebugKit\Panel\{closure}(Object(Cake\ORM\Query), 'produtos')
+#13 /Volumes/Data/Projects/coding/crud/vendor/cakephp/debug_kit/src/Panel/VariablesPanel.php(106): array_walk_recursive(Array, Object(Closure))
+#14 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Event/EventManager.php(386): DebugKit\Panel\VariablesPanel->shutdown(Object(Cake\Event\Event))
+#15 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#16 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#17 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(512): Cake\Controller\Controller->dispatchEvent('Controller.shut...')
+#18 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(125): Cake\Controller\Controller->shutdownProcess()
+#19 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\CarrinhosController))
+#20 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#21 {main}
+
+
+2016-05-01 18:44:40 Warning: Warning (2): array_keys() expects parameter 1 to be array, null given in [/Volumes/Data/Projects/coding/crud/src/Controller/Component/CarrinhoComponent.php, line 53]
+Request URL: /crud/carrinhos
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+array_keys - [internal], line ??
+App\Controller\Component\CarrinhoComponent::getItens() - APP/Controller/Component/CarrinhoComponent.php, line 53
+App\Controller\CarrinhosController::index() - APP/Controller/CarrinhosController.php, line 18
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-05-01 18:44:41 Error: [Cake\Database\Exception] Impossible to generate condition with empty list of values for field (id)
+Request URL: /crud/carrinhos
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Expression/Comparison.php(133): Cake\Database\Expression\Comparison->_stringExpression(Object(Cake\Database\ValueBinder))
+#1 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Expression/QueryExpression.php(481): Cake\Database\Expression\Comparison->sql(Object(Cake\Database\ValueBinder))
+#2 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/QueryCompiler.php(130): Cake\Database\Expression\QueryExpression->sql(Object(Cake\Database\ValueBinder))
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Query.php(254): Cake\Database\QueryCompiler->Cake\Database\{closure}(Object(Cake\Database\Expression\QueryExpression), 'where')
+#4 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/QueryCompiler.php(98): Cake\Database\Query->traverse(Object(Closure), Array)
+#5 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Driver.php(321): Cake\Database\QueryCompiler->compile(Object(Cake\ORM\Query), Object(Cake\Database\ValueBinder))
+#6 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Connection.php(258): Cake\Database\Driver->compileQuery(Object(Cake\ORM\Query), Object(Cake\Database\ValueBinder))
+#7 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Query.php(225): Cake\Database\Connection->compileQuery(Object(Cake\ORM\Query), Object(Cake\Database\ValueBinder))
+#8 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Query.php(902): Cake\Database\Query->sql(Object(Cake\Database\ValueBinder))
+#9 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Query.php(1901): Cake\ORM\Query->sql()
+#10 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Query.php(1091): Cake\Database\Query->__debugInfo()
+#11 /Volumes/Data/Projects/coding/crud/vendor/cakephp/debug_kit/src/Panel/VariablesPanel.php(80): Cake\ORM\Query->__debugInfo()
+#12 [internal function]: DebugKit\Panel\VariablesPanel->DebugKit\Panel\{closure}(Object(Cake\ORM\Query), 'produtos')
+#13 /Volumes/Data/Projects/coding/crud/vendor/cakephp/debug_kit/src/Panel/VariablesPanel.php(106): array_walk_recursive(Array, Object(Closure))
+#14 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Event/EventManager.php(386): DebugKit\Panel\VariablesPanel->shutdown(Object(Cake\Event\Event))
+#15 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#16 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#17 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(512): Cake\Controller\Controller->dispatchEvent('Controller.shut...')
+#18 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(125): Cake\Controller\Controller->shutdownProcess()
+#19 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\CarrinhosController))
+#20 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#21 {main}
+
+
+2016-05-01 18:53:46 Warning: Warning (2): array_keys() expects parameter 1 to be array, null given in [/Volumes/Data/Projects/coding/crud/src/Controller/Component/CarrinhoComponent.php, line 53]
+Request URL: /crud/carrinhos/
+Referer URL: http://localhost/crud/compras
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+array_keys - [internal], line ??
+App\Controller\Component\CarrinhoComponent::getItens() - APP/Controller/Component/CarrinhoComponent.php, line 53
+App\Controller\CarrinhosController::index() - APP/Controller/CarrinhosController.php, line 18
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-05-01 18:53:47 Error: [Cake\Database\Exception] Impossible to generate condition with empty list of values for field (id)
+Request URL: /crud/carrinhos/
+Referer URL: http://localhost/crud/compras
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Expression/Comparison.php(133): Cake\Database\Expression\Comparison->_stringExpression(Object(Cake\Database\ValueBinder))
+#1 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Expression/QueryExpression.php(481): Cake\Database\Expression\Comparison->sql(Object(Cake\Database\ValueBinder))
+#2 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/QueryCompiler.php(130): Cake\Database\Expression\QueryExpression->sql(Object(Cake\Database\ValueBinder))
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Query.php(254): Cake\Database\QueryCompiler->Cake\Database\{closure}(Object(Cake\Database\Expression\QueryExpression), 'where')
+#4 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/QueryCompiler.php(98): Cake\Database\Query->traverse(Object(Closure), Array)
+#5 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Driver.php(321): Cake\Database\QueryCompiler->compile(Object(Cake\ORM\Query), Object(Cake\Database\ValueBinder))
+#6 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Connection.php(258): Cake\Database\Driver->compileQuery(Object(Cake\ORM\Query), Object(Cake\Database\ValueBinder))
+#7 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Query.php(225): Cake\Database\Connection->compileQuery(Object(Cake\ORM\Query), Object(Cake\Database\ValueBinder))
+#8 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Query.php(902): Cake\Database\Query->sql(Object(Cake\Database\ValueBinder))
+#9 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Database/Query.php(1901): Cake\ORM\Query->sql()
+#10 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/ORM/Query.php(1091): Cake\Database\Query->__debugInfo()
+#11 /Volumes/Data/Projects/coding/crud/vendor/cakephp/debug_kit/src/Panel/VariablesPanel.php(80): Cake\ORM\Query->__debugInfo()
+#12 [internal function]: DebugKit\Panel\VariablesPanel->DebugKit\Panel\{closure}(Object(Cake\ORM\Query), 'produtos')
+#13 /Volumes/Data/Projects/coding/crud/vendor/cakephp/debug_kit/src/Panel/VariablesPanel.php(106): array_walk_recursive(Array, Object(Closure))
+#14 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Event/EventManager.php(386): DebugKit\Panel\VariablesPanel->shutdown(Object(Cake\Event\Event))
+#15 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#16 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#17 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(512): Cake\Controller\Controller->dispatchEvent('Controller.shut...')
+#18 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(125): Cake\Controller\Controller->shutdownProcess()
+#19 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\CarrinhosController))
+#20 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#21 {main}
+
+
+2016-05-01 19:21:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Carrinho could not be found.
+Exception Attributes: array (
+  'class' => 'Carrinho',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /crud/carrinho/remover/1
+Referer URL: http://localhost/crud/carrinhos
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-01 19:24:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Carrinho could not be found.
+Exception Attributes: array (
+  'class' => 'Carrinho',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /crud/carrinho/remover/1
+Referer URL: http://localhost/crud/carrinhos
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-01 19:24:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Carrinho could not be found.
+Exception Attributes: array (
+  'class' => 'Carrinho',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /crud/carrinho
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-01 19:24:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Carrinho could not be found.
+Exception Attributes: array (
+  'class' => 'Carrinho',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /crud/carrinho/remover/1
+Referer URL: http://localhost/crud/carrinhos
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-01 19:25:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Carrinho could not be found.
+Exception Attributes: array (
+  'class' => 'Carrinho',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /crud/carrinho/remover/1
+Referer URL: http://localhost/crud/carrinhos
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-01 19:35:03 Error: [Cake\Controller\Exception\MissingActionException] Action CarrinhosController::salvarComptra() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CarrinhosController',
+  'action' => 'salvarComptra',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /crud/carrinhos/salvarComptra
+Referer URL: http://localhost/crud/carrinhos
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\CarrinhosController))
+#2 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-05-01 19:35:27 Error: [Cake\View\Exception\MissingTemplateException] Template file "Carrinhos/salvar_compra.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Carrinhos/salvar_compra.ctp',
+)
+Request URL: /crud/carrinhos/salvarCompra
+Referer URL: http://localhost/crud/carrinhos/
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/View/View.php(584): Cake\View\View->_getViewFileName('Carrinhos/salva...')
+#1 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\CarrinhosController))
+#4 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-05-01 19:45:41 Error: [Error] Call to a member function newEntity() on boolean
+Request URL: /crud/carrinhos/salvarCompra
+Referer URL: http://localhost/crud/carrinhos
+Stack Trace:
+#0 [internal function]: App\Controller\CarrinhosController->salvarCompra()
+#1 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#2 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\CarrinhosController))
+#4 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-05-01 19:46:26 Error: [Cake\View\Exception\MissingTemplateException] Template file "Carrinhos/salvar_compra.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Carrinhos/salvar_compra.ctp',
+)
+Request URL: /crud/carrinhos/salvarCompra
+Referer URL: http://localhost/crud/carrinhos
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/View/View.php(584): Cake\View\View->_getViewFileName('Carrinhos/salva...')
+#1 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\CarrinhosController))
+#4 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-05-01 20:02:40 Error: [Cake\View\Exception\MissingTemplateException] Template file "Carrinhos/buscar.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Carrinhos/buscar.ctp',
+)
+Request URL: /crud/carrinhos/buscar
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/View/View.php(584): Cake\View\View->_getViewFileName('Carrinhos/busca...')
+#1 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\CarrinhosController))
+#4 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-05-01 20:02:57 Error: [Cake\View\Exception\MissingTemplateException] Template file "Carrinhos/buscar.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Carrinhos/buscar.ctp',
+)
+Request URL: /crud/carrinhos/buscar
+Stack Trace:
+#0 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/View/View.php(584): Cake\View\View->_getViewFileName('Carrinhos/busca...')
+#1 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 /Volumes/Data/Projects/coding/crud/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\CarrinhosController))
+#4 /Volumes/Data/Projects/coding/crud/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-05-01 20:04:56 Warning: Warning (2): Invalid argument supplied for foreach() in [/Volumes/Data/Projects/coding/crud/src/Template/Carrinhos/buscar.ctp, line 2]
+Request URL: /crud/carrinhos/buscar
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Carrinhos/buscar.ctp, line 2
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
